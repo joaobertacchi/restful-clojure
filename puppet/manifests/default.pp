@@ -22,5 +22,5 @@ postgresql::server::db { 'restful_test':
 	password => postgresql_password('restful_test', 'pass_test'),
 }
 
-include java7
+include java8
 
